@@ -72,9 +72,14 @@
 ---
 - router의 find에서 path길에 맞는 객체를 찾음 -> 일치하는게 없다면 에러페이지로 path:'.*'()  <br/>
 
-## 반응형 <br/>
+## 반응형 & 서비리스api 관리 <br/>
 ---
-- 미디어 쿼리를 적용하여 반응형 페이지 제작 
+- 미디어 쿼리를 적용하여 반응형 페이지 제작 <br/>
+- ` npm i -D vercel`로 serverless functions 테스트 (즉시함수사용)<br/>
+- api 정보를 fetch를 이용해 id의 유무에 따라 분리 -> `npm i node-fetch@2` node에서도 fetch를 사용할 수 있게함<br/>
+- store(movie.js)에서 정보값을 받아 api의 movie.js에 post방식으로 전달해준다<br/>
+- `npm i -D dotenv`로 api키 보호<br/>
+
 
 
 
